@@ -1,0 +1,12 @@
+Student info List
+there are one from.
+from have-
+1.student name
+2.id
+3.department
+4.submit
+
+Student data of form  is stored table of student info.
+
+
+

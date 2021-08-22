@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://bootswatch.com/4/flatly/bootstrap.min.css" />
+    <title>Student Info List</title>
+</head>
+<body>
+  <div class="container mt-4">   
+   <h1 class="test-center display-4"><span class="text-warning">Student</span>info
+   </h1>
+
+    
+    <form id="student-form">
+        <div class="form-group">
+        <label for="name">Name:</label><br>
+        <input type="text" id="name" name="form-control">
+        </div>
+        <div class="form-group">
+            <label for="id">ID:</label><br>
+            <input type="text" id="id" name="form-control">
+            </div>
+            <div class="form-group">
+                <label for="department">Department:</label><br>
+                <input type="text" id="department" name="form-control">
+                </div>
+        
+        <input type="submit" value="submit" class="btn  btn-warning btn-block">
+    </form>
+      
+
+    <table class="table table-stripped mt-5 text-center">
+     <thead>
+        <tr>
+          <th> Name</th>
+          <th>Id</th>
+          <th>Department</th>
+        </tr>
+        
+  </thead>
+      
+         <tbody id="student-form">
+           
+
+          </tbody>
+        
+
+          
+
+    </table>
+        
+  </div>
+       
+    
+<script src="app.js"></script>
+</body>
+</html>
